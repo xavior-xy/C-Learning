@@ -11,6 +11,18 @@
             "miDebuggerPath": "C:\\msys64\\ucrt64\\bin\\gdb.exe",
             "preLaunchTask": "C/C++: gcc.exe build active file",
             "externalConsole": false
+        },
+
+        {
+            "name": "C++ Debug",
+            "type": "cppdbg",
+            "request": "launch",
+            "program": "${fileDirname}\\${fileBasenameNoExtension}.exe",
+            "cwd": "${fileDirname}",
+            "MIMode": "gdb",
+            "miDebuggerPath": "C:\\msys64\\ucrt64\\bin\\gdb.exe",
+            "preLaunchTask": "C/C++: g++.exe build active file",
+            "externalConsole": false
         }
     ]
 }
